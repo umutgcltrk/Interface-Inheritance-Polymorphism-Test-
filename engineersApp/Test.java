@@ -4,7 +4,7 @@ import javax.naming.directory.SchemaViolationException;
 
 public class Test {
     public static void main(String[] args) {
-        Engineer engineerYazılım = new SoftwareEngineer();
+        Engineer engineerYazılım = new SoftwareEngineer(); //Upcasting
         SoftwareEngineer hasYazılımcı = (SoftwareEngineer) engineerYazılım; //Downcasting
         engineerYazılım.work();
         hasYazılımcı.writeCode();
